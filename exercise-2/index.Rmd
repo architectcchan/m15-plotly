@@ -1,0 +1,32 @@
+---
+title: "index.Rmd"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+The election for the next chief executive in Hong Kong has stirred up protests and major controversies over the past year, as the citizens of Hong Kong have been in conflict with the Hong Kong government. Even though Carrie Lam is now officially the _first female chief executive_ in Hong Kong, she was not elected by popular vote, but rather, appointment by a committee of pro-Beijing interests. Despite the worldwide exposure of the Umbrella protest, there is clearly a slow pace of democratic reform, as **7 million Hong Kong citizens** had no say in selecting their next [national leader](http://www.cnn.com/2017/03/25/asia/hong-kong-chief-executive/).
+
+>Eric Cheung, a professor at the University of Hong Kong, told CNN that Beijing's preference for Lam ahead of the vote was clear.
+"It shows how ridiculous our system is," he said. "Opinion polls showed that John Tsang was more popular with the people ... but under our system, so long as the message is clear from Beijing, then the pro-establishment camp will (follow it)."
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
